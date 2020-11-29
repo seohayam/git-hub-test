@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template:
+    "header header" 100vh
+    "aside article" 100vh
+    "footer footer" 100vh
+    /25% 75%;
+}
+
+header {
+  background: gray;
+  grid-area: header;
+}
+
+aside {
+  background: red;
+  grid-area: aside;
+}
+article {
+  background: blue;
+  grid-area: article;
+}
+footer {
+  background: pink;
+  grid-area: footer;
+}
